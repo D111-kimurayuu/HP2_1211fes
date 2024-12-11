@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学園祭</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .title{
+        text-align: center;
+        background-color: brown;
+    }
+
+    .items{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            text-align: center;
+     } 
+
+     @media(min-width: 1024px){
+            main{
+                max-width: 1000px;
+            }
+            .item{
+                grid-template-columns: 1fr 1fr 1fr;    
+            }
+            img{
+                width: 180px;
+            }
+        }
+
+</style>
+<body id="top">
+    <!--ヘッダー-->
+    <header class="header">
+        
+    </header>
+    <!--ヘッダーここまで-->
+    <h1 class="title">アルバム</h1>
+    <!--メイン-->
+    <main>
+        <div class="items">
+            <div class="item">
+                <img src="images/IMG_20241027_122101.jpg" alt="スタンプラリー" width="300">
+
+            </div>
+            <div class="item">
+                    <img src="images/IMG20241026102210.jpg" alt="前期の人と合流" width="300">
+
+            </div>
+            <div class="item">
+                    <img src="images/IMG20241026103832.jpg" alt="パンケーキ" width="300">
+                    
+            </div>
+            <div class="item">
+                    <img src="images/IMG20241027122505.jpg" alt="ラムネ" width="300">
+           
+            <div class="capivara">
+                <video width="500" height="350" controls>
+                <source src="VID_20241019_154524.mp4" type="video/mp4">
+                </video>
+            </div>
+                
+            <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.779029365501!2d139.71449977579002!3d35.73165262257101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d6f3f07b76b%3A0x89f2c0ef0e9ee79f!2z5a2m5qCh5rOV5Lq66Zu75rOi5a2m5ZyS5p2x5Lqs6Zu75a2Q5bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1731040283362!5m2!1sja!2sjp"
+                width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>    
+    </main>
+    <!--メインここまで-->
+    <!--フッター-->
+    <footer>  
+    D111 kimura yuu
+    </footer>
+    <!--フッターここまで-->  
+</body>
+</html>
